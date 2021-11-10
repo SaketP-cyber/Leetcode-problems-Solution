@@ -11,6 +11,6 @@ public:
             }
              a[i]=b;
         }
-        return a;
+        return a; //ans
     }
 };
