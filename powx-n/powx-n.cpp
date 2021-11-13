@@ -21,7 +21,7 @@ public:
        int sign=1;
         if(n<0)
             sign=-1;
-        n=(long long)abs(n);
+        n=(long long)abs(n);        //Change n to long long to avoid TLE.
         double ans=power(x,n);
         if(sign==-1){
             return 1.0/ans;
